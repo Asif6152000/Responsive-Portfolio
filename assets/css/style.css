@@ -215,4 +215,77 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 768px) {
+    body {
+      background-color:chocolate;
+      
+    }
   
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+ 
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+  
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  
+  
+  
+  
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+  
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+ 
